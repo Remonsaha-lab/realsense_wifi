@@ -24,6 +24,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'combined_detection_node = realsense_wifi.combined_detection_node:main',
+            'crater_detection_node = realsense_wifi.crater_detection_node:main',
+            'object_detection_node = realsense_wifi.object_detection_node:main',
+            'camera_receiver_node = realsense_wifi.camera_receiver_node:main',
         ],
     },
 )
