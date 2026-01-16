@@ -1,0 +1,16 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+
+Displays:
+  - Class: rviz_default_plugins/Image
+    Name: Color
+    Enabled: true
+    Topic: /camera/camera/color/image_raw
+    Transport Hint: compressed
+
+  - Class: rviz_default_plugins/Image
+    Name: Depth
+    Enabled: true
+    Topic: /camera/camera/depth/image_rect_raw
+    Transport Hint: compressedDepth

@@ -1,0 +1,20 @@
+camera:
+  ros__parameters:
+    enable_sync: false
+    align_depth.enable: true
+    pointcloud.enable: false
+
+    rgb_camera.profile: "640x480x30"
+    depth_module.profile: "640x480x30"
+
+    enable_color: true
+    enable_depth: true
+    enable_infra: false
+    enable_gyro: false
+    enable_accel: false
+
+    unite_imu_method: 0
+    depth_module.depth_units: 0.001
+
+    publish_tf: true
+    hold_back_imu_for_frames: false
